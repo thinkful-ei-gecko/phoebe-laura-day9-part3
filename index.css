@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+body * {
+  font-family: 'Roboto', sans-serif;
+}
+
+a :focus {
+  outline: auto 5px -webkit-focus-ring-color;
+  box-shadow: 0;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
