@@ -6,6 +6,10 @@ body * {
   font-family: 'Roboto', sans-serif;
 }
 
+body {
+  padding: 15px;
+}
+
 a :focus {
   outline: auto 5px -webkit-focus-ring-color;
   box-shadow: 0;
@@ -14,4 +18,11 @@ a :focus {
 
 img {
   display: block;
+  max-height: 420px;
+  width: auto;
+  margin: 15px;
+}
+
+.error {
+  color: red;
 }
